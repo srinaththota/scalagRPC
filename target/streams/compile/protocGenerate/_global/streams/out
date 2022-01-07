@@ -1,0 +1,6 @@
+[info] Compiling 2 protobuf files to C:\Users\srinath\Desktop\01-01-2022\target\scala-2.13\src_managed\main
+[debug] protoc options:
+[info] Compiling schema C:\Users\srinath\Desktop\01-01-2022\src\main\protobuf\credentials.proto
+[info] Compiling schema C:\Users\srinath\Desktop\01-01-2022\src\main\protobuf\hello.proto
+[info] Compiling protobuf
+[info] Protoc target directory: C:\Users\srinath\Desktop\01-01-2022\target\scala-2.13\src_managed\main

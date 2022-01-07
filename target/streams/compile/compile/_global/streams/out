@@ -1,0 +1,6 @@
+[error] C:\Users\srinath\Desktop\01-01-2022\src\main\scala\com\example\Main.scala:162:56: type mismatch;
+[error]  found   : List[List[io.iohk.test.protos.credentials.Credential]]
+[error]  required: List[io.iohk.test.protos.credentials.Credential]
+[error]     val list:List[credentials.Credential] = map.values.toList
+[error]                                                        ^
+[error] one error found

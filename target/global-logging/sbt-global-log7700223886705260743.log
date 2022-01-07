@@ -1,0 +1,83 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.1 (Oracle Corporation Java 1.8.0_291)
+[debug] Load.defaultLoad until apply took 2119.8326ms
+[debug]           Load.loadUnit: plugins took 172.8204ms
+[debug]           Load.loadUnit: defsScala took 0.5501ms
+[debug] [Loading] Scanning directory C:\Users\srinath\Desktop\01-01-2022\project
+[debug]             Load.loadUnit: mkEval took 13.6059ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\srinath\Desktop\01-01-2022\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 33.925 ms
+[info] loading settings for project root-01-01-2022-build from plugins.sbt ...
+[debug]               Load.resolveProject(root-01-01-2022-build) took 73.2201ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id root-01-01-2022-build, base: C:\Users\srinath\Desktop\01-01-2022\project, plugins: List(<none>))) took 146.3155ms
+[debug] [Loading] Done in C:\Users\srinath\Desktop\01-01-2022\project, returning: (root-01-01-2022-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 530.089ms
+[debug]           Load.loadUnit: cleanEvalClasses took 13.8778ms
+[debug]         Load.loadUnit(file:/C:/Users/srinath/Desktop/01-01-2022/project/, ...) took 726.2173ms
+[debug]       Load.apply: load took 902.536ms
+[debug]       Load.apply: resolveProjects took 8.2163ms
+[debug]       Load.apply: finalTransforms took 102.7511ms
+[debug]       Load.apply: config.delegates took 17.5255ms
+[debug]       Load.apply: Def.make(settings)... took 1110.6487ms
+[debug]       Load.apply: structureIndex took 209.2132ms
+[debug]       Load.apply: mkStreams took 3.6203ms
+[info] loading project definition from C:\Users\srinath\Desktop\01-01-2022\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 5141.4084ms
+[debug]     Load.loadUnit: defsScala took 0.0066ms
+[debug] [Loading] Scanning directory C:\Users\srinath\Desktop\01-01-2022
+[debug]       Load.loadUnit: mkEval took 0.4882ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\srinath\Desktop\01-01-2022, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtprotoc.ProtocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.portablescala.sbtplatformdeps.PlatformDepsPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtprotoc.ProtocPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.portablescala.sbtplatformdeps.PlatformDepsPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,org.portablescala.sbtplatformdeps.PlatformDepsPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtprotoc.ProtocPlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 6.4327 ms
+[info] loading settings for project root-01-01-2022 from build.sbt ...
+[debug]         Load.resolveProject(root-01-01-2022) took 25.8982ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root-01-01-2022, base: C:\Users\srinath\Desktop\01-01-2022, plugins: List(<none>))) took 33.783ms
+[debug] [Loading] Done in C:\Users\srinath\Desktop\01-01-2022, returning: (root-01-01-2022)
+[debug]     Load.loadUnit: loadedProjectsRaw took 289.6758ms
+[debug]     Load.loadUnit: cleanEvalClasses took 21.7739ms
+[debug]   Load.loadUnit(file:/C:/Users/srinath/Desktop/01-01-2022/, ...) took 5455.1659ms
+[debug] Load.apply: load took 5486.6206ms
+[debug] Load.apply: resolveProjects took 0.3792ms
+[debug] Load.apply: finalTransforms took 88.181ms
+[debug] Load.apply: config.delegates took 1.0063ms
